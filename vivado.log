@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Sep  4 08:49:50 2019
+# Process ID: 24983
+# Current directory: /home/zach/git/grad_school/EN525.742-Project-1
+# Command line: vivado project_1.xpr
+# Log file: /home/zach/git/grad_school/EN525.742-Project-1/vivado.log
+# Journal file: /home/zach/git/grad_school/EN525.742-Project-1/vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script '/home/zach/.Xilinx/Vivado/Vivado_init.tcl'
+start_gui
+open_project project_1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Zach/Documents/GradSchool/Fall 2019/EN525.742_SOC_Design_Lab/project_1' since last save.
+WARNING: [filemgmt 20-922] The BXML file is of a newer version (0.37) then the current supported version (0.36).
+Data could be potentially be lost
+CRITICAL WARNING: [Project 1-311] Could not find the file '/Downloads/clkdivider_1.vhd', nor could it be found using path '/home/zach/git/grad_school/EN525.742-Project-1/C:/Users/Zach/Downloads/clkdivider_1.vhd'.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_mdm_1_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_lmb_bram_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_dlmb_v10_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_ilmb_v10_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_microblaze_0_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_ilmb_bram_if_cntlr_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_xbar_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_rst_Clk_100M_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_axi_gpio_0_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_axi_uartlite_0_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_dlmb_bram_if_cntlr_0_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_mdm_1_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_lmb_bram_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_dlmb_v10_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_ilmb_v10_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_microblaze_0_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_ilmb_bram_if_cntlr_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_xbar_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_rst_Clk_100M_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_axi_gpio_0_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_axi_uartlite_0_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run proc_system_dlmb_bram_if_cntlr_0_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2019) not recognized by Vivado. 
+
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [BD 41-1663] The design 'proc_system.bd' cannot be modified due to following reason(s):
+* Project is read-only. Please run 'save_project_as' before making any change to the bd-design. 
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'proc_system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+proc_system_axi_gpio_0_0
+proc_system_microblaze_0_axi_periph_0
+proc_system_mdm_1_0
+proc_system_rst_Clk_100M_0
+proc_system_dlmb_v10_0
+proc_system_axi_uartlite_0_0
+proc_system_microblaze_0_0
+proc_system_dlmb_bram_if_cntlr_0
+proc_system_xbar_0
+proc_system_ilmb_v10_0
+proc_system_lmb_bram_0
+proc_system_ilmb_bram_if_cntlr_0
+
+WARNING: [Project 1-231] Project 'project_1.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 6637.844 ; gain = 147.914 ; free physical = 2140 ; free virtual = 54056
+update_compile_order -fileset sources_1
+save_project_as project_1_v2018_3 /home/zach/git/grad_school/EN525.742-Project-1/project_1_v2018_3 -force
+WARNING: [IP_Flow 19-2162] IP 'proc_system_microblaze_0_0' is locked:
+* IP definition 'MicroBlaze (11.0)' for IP 'proc_system_microblaze_0_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'proc_system_dlmb_bram_if_cntlr_0' is locked:
+* IP definition 'LMB BRAM Controller (4.0)' for IP 'proc_system_dlmb_bram_if_cntlr_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'proc_system_ilmb_bram_if_cntlr_0' is locked:
+* IP definition 'LMB BRAM Controller (4.0)' for IP 'proc_system_ilmb_bram_if_cntlr_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'proc_system_lmb_bram_0' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'proc_system_lmb_bram_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'proc_system_mdm_1_0' is locked:
+* IP definition 'MicroBlaze Debug Module (MDM) (3.2)' for IP 'proc_system_mdm_1_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'proc_system_axi_uartlite_0_0' is locked:
+* IP definition 'AXI Uartlite (2.0)' for IP 'proc_system_axi_uartlite_0_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'proc_system_xbar_0' is locked:
+* IP definition 'AXI Crossbar (2.1)' for IP 'proc_system_xbar_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'proc_system_microblaze_0_axi_periph_0' is locked:
+* IP definition 'AXI Interconnect (2.1)' for IP 'proc_system_microblaze_0_axi_periph_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'proc_system_axi_gpio_0_0' is locked:
+* IP definition 'AXI GPIO (2.0)' for IP 'proc_system_axi_gpio_0_0' (customized with software release 2019.1) has a different revision in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'proc_system.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+proc_system_axi_gpio_0_0
+proc_system_microblaze_0_axi_periph_0
+proc_system_xbar_0
+proc_system_mdm_1_0
+proc_system_ilmb_bram_if_cntlr_0
+proc_system_lmb_bram_0
+proc_system_dlmb_bram_if_cntlr_0
+proc_system_microblaze_0_0
+proc_system_axi_uartlite_0_0
+
+import_files
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: /Downloads/clkdivider_1.vhd
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  6 2018-23:53:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248A4981E
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {/home/zach/git/grad_school/EN525.742-Project-1/project_1.runs/impl_1/toplevel.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace /home/zach/git/grad_school/EN525.742-Project-1/project_1_v2018_3/project_1_v2018_3.sdk -hwspec /home/zach/git/grad_school/EN525.742-Project-1/project_1_v2018_3/project_1_v2018_3.sdk/toplevel.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/zach/git/grad_school/EN525.742-Project-1/project_1_v2018_3/project_1_v2018_3.sdk -hwspec /home/zach/git/grad_school/EN525.742-Project-1/project_1_v2018_3/project_1_v2018_3.sdk/toplevel.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
