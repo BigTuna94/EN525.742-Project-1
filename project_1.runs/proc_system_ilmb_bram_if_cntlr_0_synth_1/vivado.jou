@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Aug 29 20:37:12 2019
+# Process ID: 196
+# Current directory: C:/Users/Zach/Documents/GradSchool/Fall 2019/EN525.742_SOC_Design_Lab/tutorial_2/tutorial_2.runs/proc_system_ilmb_bram_if_cntlr_0_synth_1
+# Command line: vivado.exe -log proc_system_ilmb_bram_if_cntlr_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source proc_system_ilmb_bram_if_cntlr_0.tcl
+# Log file: C:/Users/Zach/Documents/GradSchool/Fall 2019/EN525.742_SOC_Design_Lab/tutorial_2/tutorial_2.runs/proc_system_ilmb_bram_if_cntlr_0_synth_1/proc_system_ilmb_bram_if_cntlr_0.vds
+# Journal file: C:/Users/Zach/Documents/GradSchool/Fall 2019/EN525.742_SOC_Design_Lab/tutorial_2/tutorial_2.runs/proc_system_ilmb_bram_if_cntlr_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source proc_system_ilmb_bram_if_cntlr_0.tcl -notrace

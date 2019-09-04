@@ -22,6 +22,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
     <Option Name="EnableCoreContainer" Val="FALSE"/>
@@ -68,39 +69,6 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_mdm_1_0/proc_system_mdm_1_0.xci">
-          <Proxy FileSetName="proc_system_mdm_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_axi_gpio_0_0/proc_system_axi_gpio_0_0.xci">
-          <Proxy FileSetName="proc_system_axi_gpio_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_ilmb_bram_if_cntlr_0/proc_system_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="proc_system_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_dlmb_bram_if_cntlr_0/proc_system_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="proc_system_dlmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_xbar_0/proc_system_xbar_0.xci">
-          <Proxy FileSetName="proc_system_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_microblaze_0_0/proc_system_microblaze_0_0.xci">
-          <Proxy FileSetName="proc_system_microblaze_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_ilmb_v10_0/proc_system_ilmb_v10_0.xci">
-          <Proxy FileSetName="proc_system_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_lmb_bram_0/proc_system_lmb_bram_0.xci">
-          <Proxy FileSetName="proc_system_lmb_bram_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_rst_Clk_100M_0/proc_system_rst_Clk_100M_0.xci">
-          <Proxy FileSetName="proc_system_rst_Clk_100M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_axi_uartlite_0_0/proc_system_axi_uartlite_0_0.xci">
-          <Proxy FileSetName="proc_system_axi_uartlite_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="proc_system.bd" FileRelPathName="ip/proc_system_dlmb_v10_0/proc_system_dlmb_v10_0.xci">
-          <Proxy FileSetName="proc_system_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
       </File>
       <File Path="$PPRDIR/../../../../../Downloads/clkdivider_1.vhd">
         <FileInfo>
